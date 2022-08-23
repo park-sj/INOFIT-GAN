@@ -2,6 +2,7 @@
 
 
 Research and development of virtual plastic surgery platform INOFIT
+
 Generative Adversarial Network(GAN) research and development for medical image standardization and denoising
 
 

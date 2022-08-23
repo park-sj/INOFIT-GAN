@@ -28,11 +28,11 @@ class TrainDCMDataset(Dataset):
         self.normalize = self._normalization()
         self.totensor = self._totensor()
 
-        #self.min_value = -750.0
-        #self.max_value = 1250.0
+        self.min_value = -750.0
+        self.max_value = 1250.0
 
-        self.H_min_value = -800.0
-        self.H_max_value = 800.0
+        #self.H_min_value = -800.0
+        #self.H_max_value = 800.0
 
     def _load_file(self, filename):
         reader = sitk.ImageFileReader()
